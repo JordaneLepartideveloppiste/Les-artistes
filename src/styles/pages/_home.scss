@@ -1,0 +1,208 @@
+.home-complete {
+    
+  @media screen and(max-width: 480px) {
+    margin-bottom: -5rem;
+  }
+  margin: 0;
+  #header_stains{
+   #top_stain {
+     @media screen and(max-width: 1024px) {
+        width: 100%;
+      }
+      transform: translateY(65px);
+      width: 100%;
+    }
+  }
+  
+  .modal-new-post {
+    background: $white;
+    box-shadow: 0px 2px 8px 1px #5b5b5bca;
+    border-radius: 8px;
+    position: fixed;
+    top: 30%;
+    z-index: 100;
+    width: 90vw;
+    max-height: 80vh;
+    margin: 0 1.5rem;
+    border: 3px solid $color-4;
+    
+    .close-modal {
+      float: right;
+      height: 1.5rem;
+      z-index: 1000;
+      background: $color-2;
+      color: $color-1;
+      padding: 0 5px 5px 5px;
+      border-radius: 50%;
+      cursor: pointer;
+      display: inline-block;
+      font-family: $font-3;
+      transform: translate(-0.5rem, 0.5rem);
+    }
+    
+
+  }
+  .home-page-out {
+    margin: 250px 0 0;
+  }
+  .home-page-in, .home-page-out{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 3fr 1fr;
+    overflow: hidden;
+
+    @media screen and(max-width:1024px) {
+      transform: translateY(-18rem);
+      grid-template-columns: 610px 1fr;
+      margin: 250px 20px 50px
+    }
+    @media screen and(max-width: 720px) {
+      
+      grid-template-columns: 1fr;
+      margin: 250px 0 50px;
+    }
+    @media screen and(max-width: 480px) {
+      transform: translateY(-10rem);
+      margin: 250px 0 0;
+    }
+    
+    
+  
+
+
+  transform: translateY(-10rem);
+
+
+  
+
+  .main {
+    margin-left: 1rem;
+    @media screen and(max-width:720px) {
+      margin: 0 0.5rem;
+    }
+    @media screen and(max-width:640px) {
+      margin: 0 0.27rem;
+    }
+    .home-header {
+      
+      text-align: center;
+
+      
+      
+      .connection-form {
+        background: $color-4;
+        border: 3px solid $color-3;
+        border-radius: 8px;
+        padding: 35px;
+        margin-bottom: 8rem;
+
+        ul {
+          display: flex;
+          justify-content: center;
+          margin-bottom: 28px;
+        
+
+          
+        }
+        form {
+          label{
+            @media screen and(max-width:720px) {
+         font-size: 1.4rem; 
+        }
+            font-size: 1.6em;
+            text-shadow: 2px 3px 0px $color-1;
+          }
+          #email, #password, #pseudo, #password-conf {
+            @media screen and(max-width:720px) {
+          width: 75vw;
+          padding: 0.5rem 0;
+        }
+            width: 50vw;
+             padding: 0.8rem 0;
+            font-size: 1.3rem;
+            font-family: $font-2;
+            
+          }
+
+           #terms{
+          position:relative;
+          right: 8px;
+          top: 8px;
+        }
+        #conditions{
+          @media screen and(max-width:720px) {
+          font-size: 1.2rem;
+        }
+          font-family: $font-5;
+          font-size: 1.6em;
+          position: relative;
+          bottom: -10px;
+          left: 14px;
+          text-shadow: none;
+          color: $color-3;
+        
+        a {
+          color: rgb(96, 0, 213);
+          text-shadow: none;
+        }
+        }
+          input[type=submit] {
+            @media screen and(max-width:720px) {
+         width: 25vw;
+         font-size: 1.4rem; 
+        }
+            margin-top: 1rem;
+            padding-bottom: 0.2rem;
+            text-shadow: 2px 3px 0px $color-1;
+            cursor: pointer;
+            font-family: $font-3;
+            padding: 0.6rem 0;
+            font-size: 1.6em;
+          }
+        }
+      }
+      .thread-container {
+        @media screen and(max-width:480px) {
+          transform: translateY(-9rem);
+        }
+      }
+    }
+    
+  }
+  .right-side {
+    width: 100%;
+    margin: 13rem 1rem 0 1rem;
+    position: -webkit-sticky;
+    
+    @media screen and(max-width:1024px) {
+      width: 60%;
+     
+    }
+
+    @media screen and(max-width: 720px) {
+      display: none;
+    }
+    
+  
+    
+  }
+  
+}
+#modal-post-480 {
+        z-index: 1000;
+        position: fixed;
+        bottom: 5rem;
+        right: 0.5rem;
+        padding: 3.2rem 4rem 3rem 3rem;
+        background-color: transparent;
+        background-image: url('../assets/img/stain_middle_grey.png');
+        background-repeat: no-repeat;
+        background-size: 90% 100%;
+        color: $color-1;
+        text-shadow: 1px 2px 1px $black;
+      }
+}
+.footer-home {
+  transform: translateY(-19rem);
+  margin-bottom: -1rem;
+}

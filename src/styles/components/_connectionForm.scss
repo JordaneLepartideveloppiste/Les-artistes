@@ -1,0 +1,59 @@
+.connection-form {
+  margin-top: 8rem;
+  user-select: none;
+  text-align: center;
+
+  .form-container {
+    ul {
+      li {
+        @media screen and(max-width:720px) {
+          padding: 0.6rem 1.6rem;
+        }
+
+        margin: 0 8px;
+        color: $color-1;
+        width: 155px;
+        padding: 1rem 1.6rem;
+      }
+      li:not(.active-btn) {
+        @media screen and(max-width:720px) {
+          background-position-y: 0rem;
+        }
+        background-image: url("../assets/img/brush_btn1.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position-x: 0.5rem;
+        background-position-y: 5px;
+        cursor: pointer;
+        &:hover {
+          @media screen and(max-width:720px) {
+          background-position-y: 0rem;
+        }
+          text-shadow: 1px 2px 0px $white;
+          color: $color-3;
+          background-image: url("../assets/img/brush_btn1_hover.png");
+          background-repeat: no-repeat;
+          background-size: 100%;
+          background-position-x: 8px;
+          background-position-y: 5px;
+        }
+      }
+      .active-btn {
+        background-image: url("../assets/img/brush_btn2_inactive2.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position-x: 3px;
+        background-position-y: 0px;
+        
+
+        &:hover {
+          background-image: url("../assets/img/brush_btn2_inactive2.png");
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          background-position-x: 3px;
+          background-position-y: 0px;
+        }
+      }
+    }
+  }
+}

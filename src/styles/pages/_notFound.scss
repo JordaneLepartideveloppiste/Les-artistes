@@ -1,0 +1,36 @@
+.not-found-page {
+    @media screen and(max-width:1024px) {
+    padding-bottom: 5rem;
+    }   
+    padding-bottom: 3rem;
+
+    .not-found-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        background-image: url('../assets/img/brush_textarea.png');
+        background-repeat: no-repeat;
+        background-size: 60% 100%;
+        background-position: 15rem 0;
+
+        h1 {  
+            color: $color-1;
+        }
+
+        h4 {
+            margin-top: 1.5rem;
+            font-family: $font-1;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 2.2rem;
+        }
+       
+        #back-home {
+            padding: 0.5rem 2rem;
+            transform: translateY(3rem);
+            z-index: 10;
+        }   
+    }
+}

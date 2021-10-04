@@ -1,0 +1,91 @@
+.trending-container {
+  background: $color-3;
+  border: 2px solid $color-1;
+  box-shadow: 0px 2px 8px 1px #5b5b5bca;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  padding: 1.5rem;
+  width: 356px;
+
+  h4 {
+    font-size: 1.4rem;
+    color: $color-1;
+    margin-bottom: 1rem;
+  }
+  ul {
+
+    li {
+      height: 18vh;
+      margin: 5px 0;
+      display: grid;
+      align-items: center;
+      grid-template-columns: 68px 1fr;
+      padding: 1rem;
+      background-color: transparent;
+      background-image: url('../assets/img/brush_textarea_user.png');
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+
+      &:hover {
+        box-shadow: none;
+      }
+
+      .cadre{
+        width:80px;
+        height:80px;
+        z-index: 3;
+      }
+
+      div {
+        display: flex;
+        height: 50px;
+        margin-left: -40px;
+      }
+
+      .trends_img{
+        height: 70px;
+        width: 70px;
+        object-fit: cover;
+        transform: translate(-22px, -9px);
+      }
+      
+      .trend-content {
+        width: 15vw;
+        height: 9vh;
+        overflow-y: scroll;
+        transform: translate(7.5rem, -4.5rem);
+
+        p {
+          @media screen and(max-width:1024px) {
+            font-size: 1.1rem;
+          }
+          padding: 10px;
+          font-family: $font-5;
+          font-size: 1.3rem;
+          color: $color-3;
+          
+        }
+        .read-stain {
+        transform: translate( -22px, 29px); 
+        width: 56px;
+
+        #play_stain{
+          z-index: 0;
+          width: 62px;
+          transform: translate( -2px, -2px);
+          }
+
+        span {
+          z-index: 2;
+          color: $color-1;
+          font-family: $font-3;
+          position: absolute;
+          right: 12px;
+          bottom: 8px;
+        }
+      }
+      }
+      
+    }
+  }
+}

@@ -1,0 +1,278 @@
+
+  #footer_stains {
+    height: 3.8rem;
+
+    #bottom_stain {
+      @media screen and(max-width: 1024px) {
+        transform: translate(0.3rem, -10.5rem);
+      }
+      @media screen and(max-width: 480px) {
+        transform: translateY(-2rem);
+      }
+      transform: translateY(-14rem);
+      width: 100%;
+    }
+  }
+
+  #footer-nav {
+    margin: O;
+    height: 10rem;
+    width: 100vw;
+    height: 10rem;
+    box-shadow: 0px -4px 0px $color-3, 0px -6px 0px $color-1;
+    padding: 0 20px;
+    background: $black;
+    transform: translateY(2rem);
+    @media screen and(max-width: 1024px) {
+      height: 11rem;
+    }
+    @media screen and(max-width: 720px) {
+      padding: 0;
+    }
+    @media screen and(max-width: 480px) {
+      height: 6rem;
+      
+    }
+
+
+    .footer-container {
+      @media screen and(max-width:720px) {
+        justify-content: center;
+      }
+      @media screen and(max-width:480px) {
+        justify-content: space-between;
+      }
+      display: flex;
+      width: 100vw;
+      margin: 0 auto;
+      justify-content: space-around;
+      height: 45px;
+      align-items: center;
+
+      .footer-left-part {
+        .logo {
+          @media screen and(max-width:720px) {
+          transform: translateX(-3.5rem);
+        }
+        @media screen and(max-width:640px) {
+          transform: translateX(-2.5rem);
+        }
+        @media screen and(max-width:480px) {
+          transform: translateX(0);
+          margin-left: 1rem;
+        }
+        }
+        
+        width: 15vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        h6 {
+          font-size: 1rem;
+          font-family: $font-3;
+          color: $color-1;
+        }
+
+        span {
+          @media screen and(max-width:720px) {
+            transform: translate(15px, 12px);
+            font-size: 2rem;
+          }
+          @media screen and(max-width:640px) {
+            transform: translate(15px, 12px);
+            font-size: 1.8rem;
+          }
+          @media screen and(max-width: 480px) {
+            display: none;
+          }
+          
+          font-size: 0.8rem;
+          font-family: $font-2;
+          color: $color-4;
+
+        }
+        img {
+          @media screen and(max-width:720px) {
+            width: 48px;
+            height: 46px;
+          }
+          width: 58px;
+          height: 56px;
+          transform: translateY(0.4rem);
+        }
+      }
+
+      .footer-center-part {
+        @media screen and(max-width: 1024px) {
+          margin-top: 8rem;
+        }
+        @media screen and(max-width: 480px) {
+          width: 65vw;
+          transform: translateX(-4rem);
+        }
+        display: flex;
+        margin-top: 4rem;
+        align-items: center;
+        justify-content: space-around;
+        width: 55vw;
+        transform: translateY(1.5rem);
+ 
+        font-size: 1.2rem;
+.center-part-left {
+
+  .dare-you {
+    padding: 2rem 3rem 4rem 4rem;
+    background-image: url("../assets/img/stain_half_orange.png");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-position: 0 0;
+    span {
+     font-size: 1.4rem;
+    }
+  }
+.see-you {
+          
+          color: $color-3;
+          display: flex;
+
+          margin-bottom: 4.5rem;
+
+          @media screen and(max-width: 1024px) {
+            margin-right: 2rem;
+          }
+          @media screen and(max-width: 720px) {
+            margin-right: 7rem;
+          }
+          @media screen and(max-width: 640px) {
+            margin-right: 5rem;
+          }
+          @media screen and(max-width: 480px) {
+            margin-right: 0;
+          }
+
+          h5 {
+            @media screen and(max-width: 1024px) {
+            font-size: 1.2rem;
+          }
+            color: $color-1;
+            font-size: 1.4em;
+            text-shadow: 1px 2px 0px $color-3;
+            font-family: $font-4;
+          }
+
+          span,
+          h5 {
+            
+            margin-right: 10px;
+          }
+
+          span {
+            @media screen and(max-width: 1024px) {
+            font-size: 1rem;
+          }
+            color: $color-2;
+            font-size: 1.2rem;
+            font-family: $font-2;
+          }
+          
+        }
+        .go-to-profil {
+         
+         padding: 2.5rem 2rem 1.5rem 1.5rem;
+          color: $color-3;
+          background-image: url("../assets/img/stain_half_grey_bis.png");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-position: 0 0;
+
+            &:hover {
+              color: $color-3;
+          text-shadow: 1px 2px 0px $white;
+              background-image: url("../assets/img/stain_half_orange_bis.png");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-position: 0 0;
+            }
+        }
+}
+       .center-part-right {
+         width: 25vw;
+        color: $color-4;
+        font-family: $font-2;
+        font-size: 1rem;
+
+         @media screen and(max-width: 1024px) {
+        transform: translateX(1rem);
+      }
+         margin-top: 2rem;
+         span {
+           @media screen and(max-width: 1024px) {
+            font-size: 1rem;
+          }
+           color: $color-2;
+            font-size: 1.2em;
+            font-family: $font-3;
+         }
+          p {
+            @media screen and(max-width: 1024px) {
+        width: 20vw;
+        
+      }
+            
+          }
+          .arrow-footer {
+            float: right;
+            transform: translate(-2rem, -1rem);
+            width: 4vw;
+
+          }
+          
+       } 
+        
+
+        
+      }
+      .footer-right-part {
+        @media screen and(max-width: 1024px) {
+        width: 43vw;
+      }
+        width: 35vw;
+        background-image: url("../assets/img/brush_grey_footer.png");
+            background-repeat: no-repeat;
+            background-size: 75% 100%;
+            background-position: 2rem 0;
+            margin-top: 8rem;
+            padding: 1.5rem 0 1.5rem 4rem;
+
+            .link {
+              display: flex;
+              justify-content: flex-start;
+              align-items: center;
+              font-family: $font-1;
+              color: $black;
+              font-size: 0.9rem;
+              padding: 0.5rem 0.8rem 0.2rem 0;
+
+              &:hover {
+                color: $color-1;
+              }
+            }
+
+            .linkedin {
+              .linkedin-icon {
+                width: 3vw;
+              }
+             
+            }
+            .github {
+              .github-icon {
+                width: 3vw;
+              }
+              
+            }
+      }
+    }
+  }
+
